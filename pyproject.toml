@@ -25,4 +25,4 @@ build-backend = "hatchling.build"
 package = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["blender_console_mirror"]
+packages = ["console_mirror"]

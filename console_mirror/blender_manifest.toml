@@ -1,22 +1,16 @@
 schema_version = "1.0.0"
-id = "blender_console_mirror"
+id = "console_mirror_utility"
 version = "1.0.0"
-name = "blender_console_mirror"
-tagline = "Minimal example Blender add-on"
+name = "Console Mirror"
+tagline = "Redirects system console output to Blender Text Editor."
 type = "add-on"
-
-blender_version_min = "5.0.0"
-
-maintainer = "Your Name <you@example.com>"
-license = [
-    "SPDX:GPL-3.0-or-later",
-]
+platforms = ["windows-x64", "macos-arm64", "macos-x64", "linux-x64"]
+blender_version_min = "4.2.0"
+maintainer = "unclepomedev <unclepome.dev@gmail.com>"
+license = ["SPDX:GPL-3.0-or-later"]
 
 [description]
-text = """
-Minimal hello world add-on template.
-Provides a sample operator, UI panel, and preferences.
-"""
+text = "Mirrors system console output (stdout/stderr) to a Blender Text Block for easy debugging."
 
-# more details (bundle 3rd party modules, permissions, etc.)
-# https://docs.blender.org/manual/en/4.2/advanced/extensions/getting_started.html#manifest
+[urls]
+website = "https://github.com/unclepomedev/blender_console_mirror"
