@@ -31,5 +31,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: addon-zip
-          path: dist/*.zip
+          name: console_mirror_package
+          path: dist/console_mirror-*.zip
+          if-no-files-found: error
