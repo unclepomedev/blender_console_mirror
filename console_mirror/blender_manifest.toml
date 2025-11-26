@@ -4,7 +4,6 @@ version = "1.0.0"
 name = "Console Mirror"
 tagline = "Redirects system console output to Blender Text Editor"
 type = "add-on"
-platforms = ["windows-x64", "macos-arm64", "macos-x64", "linux-x64"]
 blender_version_min = "4.2.0"
 maintainer = "unclepomedev <unclepome.dev@gmail.com>"
 license = ["SPDX:GPL-3.0-or-later"]
