@@ -1,3 +1,5 @@
+# I do not recommend using this code, but I'm leaving it as a reminder of my past mistakes.
+
 # Console Mirror
 
 Redirects system console output (`stdout`/`stderr`) to a Blender Text Block for easy debugging without opening the system console window.
